@@ -3,7 +3,7 @@ function setup()
   createCanvas(700,500);
 
 }
-
+//I worked with Justin Cai
 function draw()
 {
 	background(90,90,90)
