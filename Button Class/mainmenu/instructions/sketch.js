@@ -1,16 +1,17 @@
 //creating a variable called b1 (Stands for button 1)
 
-var lvl2;
+var inst;
 
 function setup()
 {
   //create a drawing service 700px wide, 500px tall
   createCanvas(700,500);
-  lvl2 = new Button(10,10,100,50);
-  lvl2.setText("Level 2")
-  lvl2.setTextOver("Go")
-  lvl2.showButton()
+  inst = new Button(10,10,100,50);
+  inst.setText("back")
+  inst.setTextOver("Go")
+  inst.showButton()
 
+text("just click the buttons. It's that simple.",10,130);
 }
 
 function draw()
@@ -22,7 +23,7 @@ function draw()
 
   if (lvl2.getButtonState() == 1)
   {
-    window.open("../../../mainmenu.html", "_self");
+    window.open("..mainmenu.html", "_self");
   }
 
 }

@@ -22,7 +22,7 @@ function draw()
 
   if (lvl2.getButtonState() == 1)
   {
-    window.open("../../../mainmenu.html", "_self");
+    window.open("level2/level2.html","_self")
   }
 
 }

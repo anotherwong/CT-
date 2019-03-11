@@ -7,7 +7,7 @@ function setup()
   //create a drawing service 700px wide, 500px tall
   createCanvas(700,500);
   lvl2 = new Button(10,10,100,50);
-  lvl2.setText("Level 2")
+  lvl2.setText("Level 3")
   lvl2.setTextOver("Go")
   lvl2.showButton()
 
@@ -22,7 +22,7 @@ function draw()
 
   if (lvl2.getButtonState() == 1)
   {
-    window.open("../../../mainmenu.html", "_self");
+    window.open("level3/level3.html","_self")
   }
 
 }
