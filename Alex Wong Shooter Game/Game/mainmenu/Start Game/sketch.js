@@ -29,7 +29,7 @@ function setup()
 
 	// setup player
 	p1 = new Character(100,400); // player starting x,y
-	playerImage = loadImage('https://bleungwpg.github.io/resourcehosting/mathgame/Airplane.png');
+	playerImage = loadImage('https://anotherwong.github.io/Resourcehosting/Screen Shot 2019-05-25 at 10.24.12 AM.png');
 	p1.setCharacterImage(playerImage,75,75);
 
 
