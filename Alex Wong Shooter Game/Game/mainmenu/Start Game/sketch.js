@@ -85,13 +85,13 @@ function setup()
 	enemySet3.setLengthHeight(63,40);
 	enemySet3.setEnemySpacing(75);
 	enemySet3.setEnemySpeed(1);
-	
+
+
 	enemySet4Photos[0] = loadImage('https://anotherwong.github.io/Resourcehosting/Q4A.png');
 	enemySet4Photos[1] = loadImage('https://anotherwong.github.io/Resourcehosting/Q4B.png');
 	enemySet4Photos[2] = loadImage('https://anotherwong.github.io/Resourcehosting/Q4C.png');
 	enemySet4Photos[3] = loadImage('https://anotherwong.github.io/Resourcehosting/Q4D.png');
 	enemySet4Photos[4] = loadImage('https://anotherwong.github.io/Resourcehosting/Q4Q.png');
-
 
 	// set 5 enemies, no images, answer is 3
 	enemySet4 = new EnemyManager(4,enemySet4Photos,true,1);
@@ -100,7 +100,8 @@ function setup()
 	enemySet4.setLengthHeight(63,40);
 	enemySet4.setEnemySpacing(75);
 	enemySet4.setEnemySpeed(1);
-	
+
+
 	enemySet5Photos[0] = loadImage('https://anotherwong.github.io/Resourcehosting/Q5A.png');
 	enemySet5Photos[1] = loadImage('https://anotherwong.github.io/Resourcehosting/Q5B.png');
 	enemySet5Photos[2] = loadImage('https://anotherwong.github.io/Resourcehosting/Q5C.png');
@@ -114,13 +115,13 @@ function setup()
 	enemySet5.setLengthHeight(63,40);
 	enemySet5.setEnemySpacing(75);
 	enemySet5.setEnemySpeed(1);
-	
+
+
 	enemySet6Photos[0] = loadImage('https://anotherwong.github.io/Resourcehosting/Q6A.png');
 	enemySet6Photos[1] = loadImage('https://anotherwong.github.io/Resourcehosting/Q6B.png');
 	enemySet6Photos[2] = loadImage('https://anotherwong.github.io/Resourcehosting/Q6C.png');
 	enemySet6Photos[3] = loadImage('https://anotherwong.github.io/Resourcehosting/Q6D.png');
 	enemySet6Photos[4] = loadImage('https://anotherwong.github.io/Resourcehosting/Q6Q.png');
-
 
 	// set 5 enemies, no images, answer is 3
 	enemySet6 = new EnemyManager(4,enemySet6Photos,true,1);
@@ -129,7 +130,8 @@ function setup()
 	enemySet6.setLengthHeight(63,40);
 	enemySet6.setEnemySpacing(75);
 	enemySet6.setEnemySpeed(1);
-	
+
+
 	enemySet7Photos[0] = loadImage('https://anotherwong.github.io/Resourcehosting/Q7A.png');
 	enemySet7Photos[1] = loadImage('https://anotherwong.github.io/Resourcehosting/Q7B.png');
 	enemySet7Photos[2] = loadImage('https://anotherwong.github.io/Resourcehosting/Q7C.png');
@@ -244,7 +246,10 @@ function draw()
 		}
 	}
 	// END QUESTION 3 ----------------------------------------------------------
-	
+
+
+
+
 	if (enemySet4.isQuestionFinished() == false)
 	{
 		// show the question
@@ -264,7 +269,11 @@ function draw()
 			enemySet5.startEnemies();
 			healthBar.deductHealth(50);
 		}
-}
+	}
+
+
+
+
 	if (enemySet5.isQuestionFinished() == false)
 	{
 		// show the question
@@ -284,6 +293,11 @@ function draw()
 			enemySet6.startEnemies();
 			healthBar.deductHealth(50);
 		}
+	}
+
+
+
+
 	if (enemySet6.isQuestionFinished() == false)
 	{
 		// show the question
@@ -299,11 +313,15 @@ function draw()
 		}
 		else if (gameState == 1 && enemySet6.isAnswerAlive() == true)
 		{
-			enemySet7.endQuestion();
+			enemySet6.endQuestion();
 			enemySet7.startEnemies();
 			healthBar.deductHealth(50);
 		}
-}
+	}
+
+
+
+
 	if (enemySet7.isQuestionFinished() == false)
 	{
 		// show the question
@@ -322,8 +340,8 @@ function draw()
 			enemySet7.endQuestion();
 			enemySet8.startEnemies();
 			healthBar.deductHealth(50);
+			}
 		}
-}
 	// --------------------------------- MODIFY CODE END ----------------------------------
 
 
