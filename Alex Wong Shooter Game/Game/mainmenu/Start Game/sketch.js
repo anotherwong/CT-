@@ -131,7 +131,6 @@ function setup()
 	enemySet6.setEnemySpacing(75);
 	enemySet6.setEnemySpeed(1);
 
-
 	enemySet7Photos[0] = loadImage('https://anotherwong.github.io/Resourcehosting/Q7A.png');
 	enemySet7Photos[1] = loadImage('https://anotherwong.github.io/Resourcehosting/Q7B.png');
 	enemySet7Photos[2] = loadImage('https://anotherwong.github.io/Resourcehosting/Q7C.png');
@@ -146,9 +145,6 @@ function setup()
 	enemySet7.setLengthHeight(63,40);
 	enemySet7.setEnemySpacing(75);
 	enemySet7.setEnemySpeed(1);
-
-}
-
 }
 
 function draw()
