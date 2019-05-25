@@ -244,6 +244,86 @@ function draw()
 		}
 	}
 	// END QUESTION 3 ----------------------------------------------------------
+	
+	if (enemySet4.isQuestionFinished() == false)
+	{
+		// show the question
+		enemySet4.drawQuestion();
+
+
+		var gameState = enemySet4.drawEnemies(pm1);
+		if (gameState == -1 && enemySet4.isAnswerAlive() == false)
+		{
+			enemySet4.endQuestion();
+			enemySet5.startEnemies();
+			score.addScore(10);
+		}
+		else if (gameState == 1 && enemySet4.isAnswerAlive() == true)
+		{
+			enemySet4.endQuestion();
+			enemySet5.startEnemies();
+			healthBar.deductHealth(50);
+		}
+}
+	if (enemySet5.isQuestionFinished() == false)
+	{
+		// show the question
+		enemySet5.drawQuestion();
+
+
+		var gameState = enemySet5.drawEnemies(pm1);
+		if (gameState == -1 && enemySet5.isAnswerAlive() == false)
+		{
+			enemySet5.endQuestion();
+			enemySet6.startEnemies();
+			score.addScore(10);
+		}
+		else if (gameState == 1 && enemySet5.isAnswerAlive() == true)
+		{
+			enemySet5.endQuestion();
+			enemySet6.startEnemies();
+			healthBar.deductHealth(50);
+		}
+	if (enemySet6.isQuestionFinished() == false)
+	{
+		// show the question
+		enemySet6.drawQuestion();
+
+
+		var gameState = enemySet6.drawEnemies(pm1);
+		if (gameState == -1 && enemySet6.isAnswerAlive() == false)
+		{
+			enemySet6.endQuestion();
+			enemySet7.startEnemies();
+			score.addScore(10);
+		}
+		else if (gameState == 1 && enemySet6.isAnswerAlive() == true)
+		{
+			enemySet7.endQuestion();
+			enemySet7.startEnemies();
+			healthBar.deductHealth(50);
+		}
+}
+	if (enemySet7.isQuestionFinished() == false)
+	{
+		// show the question
+		enemySet7.drawQuestion();
+
+
+		var gameState = enemySet7.drawEnemies(pm1);
+		if (gameState == -1 && enemySet7.isAnswerAlive() == false)
+		{
+			enemySet7.endQuestion();
+			enemySet8.startEnemies();
+			score.addScore(10);
+		}
+		else if (gameState == 1 && enemySet7.isAnswerAlive() == true)
+		{
+			enemySet7.endQuestion();
+			enemySet8.startEnemies();
+			healthBar.deductHealth(50);
+		}
+}
 	// --------------------------------- MODIFY CODE END ----------------------------------
 
 
