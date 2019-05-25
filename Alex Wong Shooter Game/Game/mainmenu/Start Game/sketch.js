@@ -77,6 +77,67 @@ function setup()
 	enemySet3.setLengthHeight(63,40);
 	enemySet3.setEnemySpacing(75);
 	enemySet3.setEnemySpeed(1);
+	
+	enemySet4Photos[0] = loadImage('https://anotherwong.github.io/Resourcehosting/Q4A.png');
+	enemySet4Photos[1] = loadImage('https://anotherwong.github.io/Resourcehosting/Q4B.png');
+	enemySet4Photos[2] = loadImage('https://anotherwong.github.io/Resourcehosting/Q4C.png');
+	enemySet4Photos[3] = loadImage('https://anotherwong.github.io/Resourcehosting/Q4D.png');
+	enemySet4Photos[4] = loadImage('https://anotherwong.github.io/Resourcehosting/Q4Q.png');
+
+
+	// set 5 enemies, no images, answer is 3
+	enemySet4 = new EnemyManager(4,enemySet4Photos,true,1);
+	enemySet4.setQuestion(enemySet4Photos[4],0,0);  // photo, x, y
+	enemySet4.setKillOutOfScreen(400);
+	enemySet4.setLengthHeight(63,40);
+	enemySet4.setEnemySpacing(75);
+	enemySet4.setEnemySpeed(1);
+	
+	enemySet5Photos[0] = loadImage('https://anotherwong.github.io/Resourcehosting/Q5A.png');
+	enemySet5Photos[1] = loadImage('https://anotherwong.github.io/Resourcehosting/Q5B.png');
+	enemySet5Photos[2] = loadImage('https://anotherwong.github.io/Resourcehosting/Q5C.png');
+	enemySet5Photos[3] = loadImage('https://anotherwong.github.io/Resourcehosting/Q5D.png');
+	enemySet5Photos[4] = loadImage('https://anotherwong.github.io/Resourcehosting/Q5Q.png');
+
+	// set 5 enemies, no images, answer is 3
+	enemySet5 = new EnemyManager(4,enemySet5Photos,true,1);
+	enemySet5.setQuestion(enemySet5Photos[4],0,0);  // photo, x, y
+	enemySet5.setKillOutOfScreen(400);
+	enemySet5.setLengthHeight(63,40);
+	enemySet5.setEnemySpacing(75);
+	enemySet5.setEnemySpeed(1);
+	
+	enemySet6Photos[0] = loadImage('https://anotherwong.github.io/Resourcehosting/Q6A.png');
+	enemySet6Photos[1] = loadImage('https://anotherwong.github.io/Resourcehosting/Q6B.png');
+	enemySet6Photos[2] = loadImage('https://anotherwong.github.io/Resourcehosting/Q6C.png');
+	enemySet6Photos[3] = loadImage('https://anotherwong.github.io/Resourcehosting/Q6D.png');
+	enemySet6Photos[4] = loadImage('https://anotherwong.github.io/Resourcehosting/Q6Q.png');
+
+
+	// set 5 enemies, no images, answer is 3
+	enemySet6 = new EnemyManager(4,enemySet6Photos,true,1);
+	enemySet6.setQuestion(enemySet6Photos[4],0,0);  // photo, x, y
+	enemySet6.setKillOutOfScreen(400);
+	enemySet6.setLengthHeight(63,40);
+	enemySet6.setEnemySpacing(75);
+	enemySet6.setEnemySpeed(1);
+	
+	enemySet7Photos[0] = loadImage('https://anotherwong.github.io/Resourcehosting/Q7A.png');
+	enemySet7Photos[1] = loadImage('https://anotherwong.github.io/Resourcehosting/Q7B.png');
+	enemySet7Photos[2] = loadImage('https://anotherwong.github.io/Resourcehosting/Q7C.png');
+	enemySet7Photos[3] = loadImage('https://anotherwong.github.io/Resourcehosting/Q7D.png');
+	enemySet7Photos[4] = loadImage('https://anotherwong.github.io/Resourcehosting/Q7Q.png');
+
+
+	// set 5 enemies, no images, answer is 3
+	enemySet7 = new EnemyManager(4,enemySet7Photos,true,1);
+	enemySet7.setQuestion(enemySet7Photos[4],0,0);  // photo, x, y
+	enemySet7.setKillOutOfScreen(400);
+	enemySet7.setLengthHeight(63,40);
+	enemySet7.setEnemySpacing(75);
+	enemySet7.setEnemySpeed(1);
+
+}
 
 }
 
