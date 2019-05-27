@@ -62,7 +62,7 @@ function setup()
 
 
 	// set 5 enemies, no images, answer is 3
-	enemySet2 = new EnemyManager(4,enemySet2Photos,true,1);
+	enemySet2 = new EnemyManager(4,enemySet2Photos,true,0);
 	enemySet2.setQuestion(enemySet2Photos[4],0,0);  // photo, x, y
 	enemySet2.setKillOutOfScreen(400);
 	enemySet2.setLengthHeight(63,40);
@@ -79,7 +79,7 @@ function setup()
 
 
 	// set 5 enemies, no images, answer is 3
-	enemySet3 = new EnemyManager(4,enemySet3Photos,true,1);
+	enemySet3 = new EnemyManager(4,enemySet3Photos,true,0);
 	enemySet3.setQuestion(enemySet3Photos[4],0,0);  // photo, x, y
 	enemySet3.setKillOutOfScreen(400);
 	enemySet3.setLengthHeight(63,40);
@@ -94,7 +94,7 @@ function setup()
 	enemySet4Photos[4] = loadImage('https://anotherwong.github.io/Resourcehosting/Q4Q.png');
 
 	// set 5 enemies, no images, answer is 3
-	enemySet4 = new EnemyManager(4,enemySet4Photos,true,1);
+	enemySet4 = new EnemyManager(4,enemySet4Photos,true,0);
 	enemySet4.setQuestion(enemySet4Photos[4],0,0);  // photo, x, y
 	enemySet4.setKillOutOfScreen(400);
 	enemySet4.setLengthHeight(63,40);
@@ -109,7 +109,7 @@ function setup()
 	enemySet5Photos[4] = loadImage('https://anotherwong.github.io/Resourcehosting/Q5Q.png');
 
 	// set 5 enemies, no images, answer is 3
-	enemySet5 = new EnemyManager(4,enemySet5Photos,true,1);
+	enemySet5 = new EnemyManager(4,enemySet5Photos,true,0);
 	enemySet5.setQuestion(enemySet5Photos[4],0,0);  // photo, x, y
 	enemySet5.setKillOutOfScreen(400);
 	enemySet5.setLengthHeight(63,40);
@@ -124,7 +124,7 @@ function setup()
 	enemySet6Photos[4] = loadImage('https://anotherwong.github.io/Resourcehosting/Q6Q.png');
 
 	// set 5 enemies, no images, answer is 3
-	enemySet6 = new EnemyManager(4,enemySet6Photos,true,1);
+	enemySet6 = new EnemyManager(4,enemySet6Photos,true,0);
 	enemySet6.setQuestion(enemySet6Photos[4],0,0);  // photo, x, y
 	enemySet6.setKillOutOfScreen(400);
 	enemySet6.setLengthHeight(63,40);
@@ -139,7 +139,7 @@ function setup()
 
 
 	// set 5 enemies, no images, answer is 3
-	enemySet7 = new EnemyManager(4,enemySet7Photos,true,1);
+	enemySet7 = new EnemyManager(4,enemySet7Photos,true,0);
 	enemySet7.setQuestion(enemySet7Photos[4],0,0);  // photo, x, y
 	enemySet7.setKillOutOfScreen(400);
 	enemySet7.setLengthHeight(63,40);
